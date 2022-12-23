@@ -1,0 +1,270 @@
+/* styling of the user schedule */
+
+.schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.4rem;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h6 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #54588b;
+    margin: 5px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+input.search-engine {
+    position: relative;
+    border-bottom: 2px solid rgb(10, 1, 1);
+    background-color: transparent;
+    text-align: center;
+    color: rgb(5, 0, 0);
+}
+
+input {
+    width: 200px;
+    height: 40px;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#current-location-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    width: fit-content;
+    aspect-ratio: 1;
+}
+
+
+.degree .active {
+    cursor: default;
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.degree .active:hover {
+    text-decoration: none;
+    color: rgb(122, 169, 245);
+}
+
+#fahrenheit-link {
+    font-weight: bold;
+    color: rgb(122, 169, 245);
+}
+
+.units {
+    display: inline;
+    font-size: 10px;
+    float: right;
+}
+
+.fa-chevron-down {
+    font-family: FontAwesome, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 30px;
+    width: 40px;
+}
+
+.form-check-inline .form-check-input {
+    position: initial;
+    margin: 0;
+    float: initial;
+}
+
+.form-check-inline {
+    margin-right: 1.5rem;
+}
+
+.form-check-inline label {
+    margin-left: .5rem;
+}
+
+#check_btn {
+    margin-left: auto;
+    padding: auto;
+    width: 500px;
+    color: rgb(8, 1, 1);
+    box-shadow: none;
+}
+
+#current-location-button {
+    font-size: 30px;
+}
+
+/* cointer colours top to bottom */
+
+.container-body {
+    height: 100%;
+    margin: 80px auto;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 8px 8px 8px 0px rgb(37 39 89 / 8%);
+    border-radius: 20px;
+}
+
+.date,
+.description {
+    text-align: center;
+}
+
+.now-temperature {
+    text-align: right;
+    font-size: 55px;
+    font-weight: lighter;
+    display: inline;
+}
+
+.feelslike {
+    text-align: right;
+}
+
+.pressure-value,
+#humidity,
+#wind,
+.visibility {
+    text-align: right;
+}
+
+.status1,
+.now {
+    font-size: 40px;
+}
+
+.date1,
+.date2,
+.date3,
+.date4,
+.date5,
+.date6 {
+    font-weight: bold;
+    text-align: right;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6 {
+    text-align: center;
+}
+
+#forecast {
+    width: 70%;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
+.col-sm-3 {
+    width: 30%;
+    padding: 10px;
+}
+
+.col-sm-6 {
+    padding: 0px;
+}
+
+.col-sm-9 {
+    width: 100%;
+    height: 100%;
+}
+
+.degree {
+    width: 35px;
+    position: relative;
+    top: 18px;
+    right: -10px;
+}
+
+.temp {
+    width: 50px;
+}
+
+.col-3 {
+    width: 10%;
+}
+
+.col-4.col-sm-2,
+.col-5.col-sm-2 {
+    width: 15%;
+}
+
+.col-7.col-sm-2 {
+    width: 15%;
+}
+
+.col-6 {
+    width: 35%;
+    padding: 0px;
+}
+
+.col-7 {
+    text-align: right;
+}
+
+.row-8,
+.row-9,
+.row-10,
+.row-11,
+.row-12,
+.row-13 {
+    height: 16.666666%;
+}
+
+.source {
+    text-decoration: underline;
+    color: #585e92;
+}
+
+.precipitation-description,
+.humidity-description,
+#winddescription,
+.visibility-description {
+    text-align: left;
+    padding-left: 20px;
+}
+
+hr {
+    border: 2px solid white;
+}
